@@ -1,0 +1,13 @@
+[package]
+name = "SysMonitor"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+sysinfo = "0.29.10"
+termion = "1.5"
+tui = { version = "0.19", default-features = false, features = ['termion'] }
+clap = {version="4.4.6", features= ["derive"]}
+    
